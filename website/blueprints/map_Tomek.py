@@ -4,7 +4,7 @@ from website.maps.generate_map_Tomek import generate_map_Tomek
 map_Tomek_bp = Blueprint('map_Tomek', __name__)
 
 
-@map_Tomek_bp.route('/map1')
+@map_Tomek_bp.route('/map_Tomek')
 def map_Tomek():
     graph = generate_map_Tomek()
 

@@ -4,7 +4,7 @@ from website.maps.generate_map_Gabrysia import generate_map_Gabrysia
 map_Gabrysia_bp = Blueprint('map_Gabrysia', __name__)
 
 
-@map_Gabrysia_bp.route('/map1')
+@map_Gabrysia_bp.route('/map_Gabrysia')
 def map_Gabrysia():
     graph = generate_map_Gabrysia()
 
